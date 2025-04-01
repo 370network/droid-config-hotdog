@@ -78,6 +78,10 @@ Requires: geoclue-provider-hybris
 #Requires: nfcd-binder-plugin
 #Requires: nfcd-pn54x-plugin
 
+# For mount partitions
+Requires: parse-android-dynparts
+Requires: lvm2
+
 %description -n patterns-sailfish-device-adaptation-hotdog
 Pattern with packages for hotdog HW Adaptation
 
