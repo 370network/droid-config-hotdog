@@ -35,7 +35,7 @@ Requires: pulseaudio-modules-droid-hidl
 # The -dummy-af is needed for newer devices that run the main
 # audiosystem-passthrough in qti mode (e.g. >=Android 9 Qualcomm),
 # to fix non-responding Camera app and/or voice during a phone call:
-#Requires: audiosystem-passthrough-dummy-af
+Requires: audiosystem-passthrough-dummy-af
 
 # for audio recording to work:
 Requires: qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
@@ -75,7 +75,7 @@ Requires: geoclue-provider-hybris
 # 1. binder plugin requires Android 8 or a newer base
 # 2. pn54x plugin talks directly to pn54x driver
 # These plugins are mutually exclusive, you need to pick one:
-#Requires: nfcd-binder-plugin
+Requires: nfcd-binder-plugin
 #Requires: nfcd-pn54x-plugin
 
 # For mount partitions
