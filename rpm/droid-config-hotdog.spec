@@ -22,6 +22,8 @@ Provides: ofono-configs
 Obsoletes: ofono-configs-mer
 Obsoletes: ofono-configs-binder
 
+Requires: libgbinder-tools
+
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-hotdog.inc
 %include patterns/patterns-sailfish-device-configuration-hotdog.inc
