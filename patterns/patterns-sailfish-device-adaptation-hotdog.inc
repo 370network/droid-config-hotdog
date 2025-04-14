@@ -30,7 +30,6 @@ Requires: libngf-qt5-qtfeedback
 Requires: qt5-plugin-generic-evdev
 
 Requires: pulseaudio-modules-droid
-Requires: pulseaudio-modules-droid-jb2q
 Requires: pulseaudio-modules-droid-hidl
 
 # For suspend to work with enabled Wi-Fi on newer Qualcomm devices
@@ -98,6 +97,9 @@ Requires: jolla-settings-system-flashlight
 
 # For suspend to work with enabled Wi-Fi on newer Qualcomm devices
 Requires: sailfish-connman-plugin-suspend
+
+# Splash screen
+Requires: yamuisplash
 
 %description -n patterns-sailfish-device-adaptation-hotdog
 Pattern with packages for hotdog HW Adaptation
