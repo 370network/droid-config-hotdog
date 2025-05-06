@@ -60,7 +60,7 @@ Requires: gstreamer1.0-droid
 Requires: gmp-droid
 
 # This is needed for notification LEDs
-Requires: mce-plugin-libhybris
+#Requires: mce-plugin-libhybris
 
 # USB mode controller
 Requires: usb-moded
