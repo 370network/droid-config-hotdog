@@ -89,8 +89,9 @@ Requires: nfcd-binder-plugin
 Requires: parse-android-dynparts
 Requires: lvm2
 
-# For torch
+# Flashlight and Ethernet
 Requires: jolla-settings-system-flashlight
+Requires: jolla-settings-networking-ethernet
 
 # For suspend to work with enabled Wi-Fi on newer Qualcomm devices
 Requires: sailfish-connman-plugin-suspend
