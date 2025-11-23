@@ -1,3 +1,4 @@
 [apps/jolla-camera]
 backCameraLabels=['1x', '3x', '.6x']
 colorFiltersAllowed=0
+videoBitRate=24000000
